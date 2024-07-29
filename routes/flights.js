@@ -6,9 +6,9 @@ const Notification = require('../models/notify')
 const twilio = require('twilio');
 
 
-accountSid = "AC054493b7213ac9355c19c5c3db2ac518",
-authToken = "b6a1de89053aa23cebbe4012ea4b01e0",
-twilioPhoneNumber = "17626002931"
+accountSid = "XXXXXXXX",
+authToken = "XXXXXXX",
+twilioPhoneNumber = "XXXXXX"
 
 const client = twilio(accountSid, authToken);
 
@@ -56,7 +56,7 @@ route.put('/:flight_id', async (req, res) => {
         message: `Your flight ${flight_id} is ${update.status}. Departure gate: ${updatedFlight.departure_gate}.`,
         timestamp: new Date(),
         method: "SMS",
-        recipient: "+918769225638" // Replace with actual recipient phone number
+        recipient: "XXXXX" // Replace with actual recipient phone number
       });
       await notification.save();
       await sendSmsNotification(notification.recipient, notification.message);
