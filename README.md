@@ -45,13 +45,13 @@ Access the deployed application [here](http://your-deployed-link.com).
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/flight-status-notifications.git
+    git clone https://github.com/agamgupta2015/indigohack-backend.git
     ```
 
 2. Change into the project directory:
 
     ```bash
-    cd flight-status-notifications
+    cd indigohack-backend
     ```
 
 3. Install the dependencies:
@@ -63,10 +63,10 @@ Access the deployed application [here](http://your-deployed-link.com).
 4. Start the server:
 
     ```bash
-    npm start
+    node server.js
     ```
 
-The API server will start on `http://localhost:3000`.
+The API server will start on `http://localhost:8000`.
 
 ## Usage
 
