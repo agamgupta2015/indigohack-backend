@@ -6,9 +6,9 @@ const Notification = require('../models/notify')
 const twilio = require('twilio');
 
 
-accountSid = "XXXXXXXX",
-authToken = "XXXXXXX",
-twilioPhoneNumber = "XXXXXX"
+accountSid = "AC054493b7213ac9355c19c5c3db2ac518",
+authToken = "b6a1de89053aa23cebbe4012ea4b01e0",
+twilioPhoneNumber = "+17626002931"
 
 const client = twilio(accountSid, authToken);
 
