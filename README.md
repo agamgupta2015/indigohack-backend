@@ -28,6 +28,9 @@ This project aims to create a comprehensive system for managing and providing re
 - **Backend**: Node.js
 - **Database**: MongoDB
 - **Notifications**: Twilio for sending the message to the User
+- 
+### SMS 
+![SMS](./screenshots/SMS.jpg)
 
 ### Deployed Link
 
