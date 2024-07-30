@@ -30,7 +30,7 @@ This project aims to create a comprehensive system for managing and providing re
 - **Notifications**: Twilio for sending the message to the User
 - 
 ### SMS 
-<img src="./screenshots/SMS.jpg" width="300" height="200" alt="SMS">
+<img src="./screenshots/SMS.jpg" width="300" height="600" alt="SMS">
 
 ### Deployed Link
 
