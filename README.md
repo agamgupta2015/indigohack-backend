@@ -31,7 +31,7 @@ This project aims to create a comprehensive system for managing and providing re
 
 ### Deployed Link
 
-Access the deployed application [here](http://your-deployed-link.com).
+Access the deployed application [here](https://indigohack-backend.onrender.com/).
 
 ## API Endpoints
 
