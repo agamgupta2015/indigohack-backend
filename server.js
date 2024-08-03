@@ -9,10 +9,11 @@ const app = express();
 const Database = require("./config/db")
 app.use(bodyParser.json());
 app.use(cors());
-const data = require("./models/data");
+// const data = require("./models/data");
+const stationRoutes = require('./routes/station'); 
 
 Database();
-data();
+// data();
 
 
 const flight  = require("./routes/flights");
@@ -25,6 +26,8 @@ app.get("/",(req,res)=>{
 })
 
 app.use("/flight",flight);
+
+app.use('/api', stationRoutes);
 
 const port = 8000
 app.listen(port, () => {
